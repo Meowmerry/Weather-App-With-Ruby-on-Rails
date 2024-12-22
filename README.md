@@ -1,24 +1,32 @@
-# README
+# Ozone
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ozone is a Ruby on Rails application.
 
-Things you may want to cover:
+## Requirements
 
-* Ruby version
+- Ruby version: specified in [.ruby-version](.ruby-version)
+- Rails version: specified in [Gemfile](Gemfile)
 
-* System dependencies
+## Setup
 
-* Configuration
+1. Clone the repository:
+    ```sh
+    git clone <repository-url>
+    cd ozone
+    ```
 
-* Database creation
+2. Install dependencies:
+    ```sh
+    bundle install
+    ```
 
-* Database initialization
+3. Setup the database:
+    ```sh
+    rails db:setup
+    ```
 
-* How to run the test suite
+## Running the Application
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+To start the application, run:
+```sh
+rails server
