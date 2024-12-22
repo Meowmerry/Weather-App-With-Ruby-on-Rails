@@ -1,13 +1,16 @@
-<div class="jumbotron mt-3">
-  <h1 class="display-4"><%= @output[0]["AQI"] %></h1>
+
+
+<div class="jumbotron mt-3 text-white <%= @api_color %>">
+  <h1 class="display-4"><%= @final_output %></h1>
   <p class="lead">This is the current ozone air quality readout for my neighborhood in Texas.</p>
   <hr class="my-4">
+  <p><%= @api_description  %></p>
   <p>Hit "Reload" in your web browser to update the reading....</p>
-  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+  <a class="btn btn-secondary btn-lg" href="#" role="button">Reload</a>
 </div>
 
-<br/>
+
 
 <%# Call to the API --> will return Ruby Array data return from API 
-
+<%= @output[1]["AQI"]
 <%= @output[0]["AQI"] %>

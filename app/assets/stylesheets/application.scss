@@ -17,17 +17,32 @@
 
 // Import Bootstrap
 @import "bootstrap";
+/* app/assets/stylesheets/application.css */
 
-// Your custom styles below
-.table {
-  vertical-align: middle;
+.green-bg {
+  background-color: rgb(2, 113, 2);
 }
 
-.btn-group {
-  gap: 0.25rem;
+.yellow-bg {
+  background-color: yellow;
 }
 
-// Add hover effect to table rows
-.table tbody tr:hover {
-  background-color: rgba(0, 0, 0, 0.075);
+.orange-bg {
+  background-color: orange;
+}
+
+.red-bg {
+  background-color: red;
+}
+
+.purple-bg {
+  background-color: purple;
+}
+
+.maroon-bg {
+  background-color: maroon;
+}
+
+.gray-bg {
+  background-color: rgb(188, 184, 184);
 }
