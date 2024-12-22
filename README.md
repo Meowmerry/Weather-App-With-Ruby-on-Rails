@@ -1,7 +1,21 @@
 # Ozone
-
+ 
 Ozone is a Ruby on Rails application.
+## How to Create Rails 
 
+- Create Rails project
+``` 
+rails new ozone
+```
+
+- Generate the controlloer or web page
+``` 
+rails g controller home index 
+```
+
+- Install Bootsrap
+    - Go to https://rubygems.org and add to Gemfile
+    - https://github.com/twbs/bootstrap-rubygem
 ## Requirements
 
 - Ruby version: specified in [.ruby-version](.ruby-version)
