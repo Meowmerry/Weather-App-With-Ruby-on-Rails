@@ -1,5 +1,7 @@
 # Ozone
- 
+
+ <img width="1068" alt="Screenshot 2024-12-22 at 5 07 18 PM" src="https://github.com/user-attachments/assets/8e4e8017-3bf4-4460-9e81-91498a6eda2d" />
+
 Ozone is a Ruby on Rails application.
 ## How to Create Rails 
 
